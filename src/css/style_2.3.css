@@ -7,9 +7,13 @@ html, body {
     padding: 0;
 }
 
-body {
+/*body {
     padding: 36px;
-}
+}*/
+
+/*h1, h2, h3, h4, h5, h6, p, span {
+    margin: 0;
+}*/
 
 .width {
     min-width: 365px;
@@ -30,14 +34,21 @@ body {
 }
 
 
-.small-text {
+.card img {
+    display: none;
+}
+
+
+.small_text,
+.small_text_1 {
     width: 214.09px;
     left: 123px;
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
 }
 
-.danila23 {
+.danila23,
+.danila23_2 {
     display: flex;
 }
 
@@ -48,4 +59,81 @@ body {
 
 .width .small-text:nth-child(3) {
     margin: 0;
+}
+
+@media screen and (min-width: 834px) and (max-width: 1279px) { 
+
+    .authors23 {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .box_small_text {
+        display: none;
+    }
+
+    .small_text_1 {
+        margin-top: 0;
+    }
+
+    .card h3 {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .danila23_2 {
+        margin-top: 72px;
+    }
+
+    img {
+        width: 109px;
+        height: 103px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .course_authors23 h2 {
+        margin-bottom: 27px;
+    }
+
+    .card img {
+        display: flex;
+        width: 16.22px;
+        height: 16.22px;
+    }
+
+    .name_i {
+        display: flex;
+        align-items: center;
+        margin-top: 22px;
+    }
+
+    .card {
+        position: relative;
+    }
+
+    .icon_wrapper:hover .box_small_text{
+        display: block;
+    }
+
+    .box_small_text {
+        position: absolute;
+        box-shadow: 0 0 5px #C0C0C0;
+        left: 0px;
+        top: 80px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .two {
+        top: -175px;
+    }
+
+    .course_authors23 {
+        margin-top: 123px;
+    }
+
 }
