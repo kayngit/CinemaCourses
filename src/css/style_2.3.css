@@ -1,2 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html, body {
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    padding: 36px;
+}
+
+.width {
+    min-width: 365px;
+    max-width: 833px;
+    width: 100%;
+}
+
+.title {
+    line-height: 26px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.card {
+    padding-left: 9px;
+    width: 214px;
+}
+
+
+.small-text {
+    width: 214.09px;
+    left: 123px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.danila23 {
+    display: flex;
+}
+
+.width .small-text:nth-child(2) {
+    margin: 0;
+    padding-bottom: 27px;
+}
+
+.width .small-text:nth-child(3) {
+    margin: 0;
+}
