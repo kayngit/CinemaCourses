@@ -12,7 +12,7 @@ body{
     margin: auto;
     background: white;
     /* height: 700px; */
-    /* border: 1px solid black; */
+     /* border: 1px solid black;  */
     
 }
 .logo{
@@ -27,13 +27,13 @@ body{
 }
 .p2, .p3, .p4{
     width: 10px;
-    height: 10px ;
-    margin-right: 4px ;
+     height: 10px ;
+     margin-right: 4px ;
 }
 /* navigaion */
 nav{
     display: flex;
-    justify-content: space-betweens;
+    justify-content: space-between;
      margin-right: 102.82px; 
     margin-left: 35px;
     margin-bottom: 8.06px;
@@ -186,5 +186,195 @@ h1{
     right: 10px ;
     font-family: Roboto;
     /* transform: rotate(-4deg); */
+
+}
+
+
+/* desktop veresion */
+
+
+@media(min-width:1280px){
+    .container-intro{
+        width: 1280px;
+        margin: auto;
+        background: white;
+        /* border: 1px solid black; */
+    }
+    .logo{
+        width: 112px;
+        height: 66px;
+        left: 121px;
+        top: 21px;
+        margin-top: 21px;
+        margin-right: 1207px;
+        margin-left: 121px;
+    }
+    .p1{
+        width: 112px;
+        height: 66px;
+
+    }
+    .p2, .p3, .p4{
+        width: 22px;
+        height: 21px ;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 96px;
+        margin-left: 121px;
+        margin-right: 810px;
+        margin-bottom: 13px;
+        font-size: 20px;
+        line-height: 23px;
+        color: black;
+        width: 130px;
+        height: 32px;
+
+    }
+    .online-courses{
+        display: flex;
+        margin-right: 25px;
+    }
+    .online-courses p{
+        width: 130px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .watch {
+        display: flex;
+    }
+    .watch p{
+        width: 130px;
+        height: 32px;
+        left: 338px;
+        top: 187px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        /* or 23px */
+
+
+        color: #000000;
+    }
+    .calendar{
+        display: flex;
+    }
+    .calendar p{
+        width: 130px;
+        height: 32px;
+        left: 500px;
+        top: 187px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: black;
+        /* or 23px */
+
+
+    }
+    /* main */
+    h1{
+        width: 628px;
+        height: 190px;
+        left: 122px;
+        top: 232px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 81px;
+        /* or 81px */
+        color: #000000;
+        margin-left: 122px;
+        margin-right: 140px;
+        margin-bottom: 6px;
+    }
+    .text{
+        margin-left: 122px;
+        margin-right: 354px;
+        margin-bottom: 161px;
+        width: 414px;
+        height: 62px;
+        left: 122px;
+        top: 427px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 30px */
+
+
+        color: #000000;
+
+    }
+    .man{
+        width: 304px;
+        height: 356px;
+    margin-left: 0px;
+    }
+    .man-one{
+        width: 304px;
+        height: 356px;
+    }
+    .text-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .block{
+        display: flex;
+        margin-top: 4px;
+    }
+    .info{
+        width: 496px;
+        height: 233px;
+        background: #1E4681;
+        border-radius: 4px ;
+        padding: 21px 29px 69px 29px ;
+        margin-top: 71px;
+        margin-right: 540px;
+        margin-left: 403px ;
+        margin-bottom: 156px ;
+    }
+    .info{
+        position: relative;
+    }
+    .info p{
+        width: 430.59px;
+        height: 113px;
+        left: 432px;
+        top: 701.04px;
+
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 32px;
+        /* or 32px */
+        
+
+        color: #FFFFFF;
+    }
+    .author{
+        position: absolute;
+        width: 280.5px;
+        height: 45.64px;
+        
+        font-size: 20px;
+        text-align: right;
+        margin-right: 25px ;
+        color: #FFFFFF;
+
+
+    }
 
 }
