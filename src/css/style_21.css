@@ -17,7 +17,7 @@ footer {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 375px;
+    width: 80%;
     margin: auto;
     padding: 0 0 0 40px;
 }
@@ -89,6 +89,26 @@ footer {
 
     .contacts_21 {
         margin-top: 25px;
+        width: 140px;
+    }
+
+    .contactstext_21 {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .right_21 {
+        width: 200px;
+    }
+
+    .syncimage_21 {
+        width: 67px;
+        height: 39px;
+    }
+
+    .socials_21 img {
+        width: 20px;
+        height: 20px;
     }
 
 }
